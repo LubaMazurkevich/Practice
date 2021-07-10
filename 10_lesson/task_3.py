@@ -9,3 +9,4 @@ with open("xyz.txt","r") as Fin:
             if p=="y":
                 county+=1
     print(f"Количество x:{countx}\nКоличество y:{county}")
+Fin.close()
